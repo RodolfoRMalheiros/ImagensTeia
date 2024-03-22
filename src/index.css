@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  code {
+    font-size: 14px;
+  }
+}

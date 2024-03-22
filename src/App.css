@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
 }
 
@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.cartButton {
+  padding: 15px 30px; /* Aumenta o preenchimento para tornar o botão maior */
+  border-radius: 5px;
+  border: none;
+  background-color: '#333333';
+  color: 'white';
+  cursor: 'pointer';
+  font-size: 1.2em; /* Aumenta o tamanho da fonte para tornar o texto maior */
+  font-weight: 'bold';
+}
+
+
